@@ -1,0 +1,41 @@
+# Xcode
+#
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# User-specific Xcode files
+#
+xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+project.xcworkspace/
+!default.xcworkspace
+# Ignore individual user settings
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+Breakpoints_v2.xcbkptlist
+
+# Swift Package Manager
+#
+.build/
+
+# OS X
+#
+.DS_Store
+
+# Backup and temp files
+#
+*.bak
+*.swp
+*~
+build_output.txt
+
+# Replay
+#
+*.mp4
+*.mov

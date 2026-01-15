@@ -204,6 +204,7 @@ h2 {
 #screenshots {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    overflow: hidden;
 }
 
 /* Screenshots showcase (Fan effect) */
