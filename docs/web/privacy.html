@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Vital2AI</title>
+    <meta name="description"
+        content="Privacy Policy for Vital2AI - Your health data stays private and secure on your device.">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+</head>
+
+<body>
+    <main>
+        <section class="policy-content">
+            <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+
+            <h1>Vital2AI - Privacy Policy</h1>
+            <p>Vital2AI is built with privacy as a core principle. Your health data is among your most sensitive
+                information, and we ensure it remains entirely under your control.</p>
+
+            <h2>1. Local Processing & Sandboxed Security</h2>
+            <p>All health data is read directly from HealthKit and processed entirely on your device. The app operates
+                in a sandboxed environment, meaning it has no access to your other files or data beyond what you
+                explicitly grant. We do not use any external servers to process, analyze, or interpret your health
+                information.</p>
+
+            <h2>2. Ephemeral Files & Automatic Cleanup</h2>
+            <p>The CSV files generated for export are stored in a temporary, secure directory on your device. To ensure
+                maximum security, these files are strictly ephemeral:</p>
+            <ul>
+                <li><strong>Immediate Deletion:</strong> All exported files are automatically deleted the moment you
+                    navigate away from the success screen or if the app is moved to the background.</li>
+                <li><strong>No Residual Data:</strong> No copy of your health data is permanently stored within the
+                    app's local storage.</li>
+            </ul>
+
+            <h2>3. Biometric & Device Security</h2>
+            <p>We use industry-standard Local Authentication (FaceID, TouchID, or your device Passcode) to gate the
+                export process. This ensures that even if your device is unlocked, your health data can only be exported
+                by you.</p>
+
+            <h2>4. Zero Data Collection</h2>
+            <p>We do not collect, store, or transmit your health data—or any analytics about your usage—to any third
+                parties. The CSV files are generated locally and are only shared with the destinations you explicitly
+                choose via the iOS Share Sheet.</p>
+
+            <h2>5. HealthKit Access & Control</h2>
+            <p>The app requests read-only access to specific HealthKit types necessary for the export. You have full
+                control over these permissions and can revoke them at any time in your iPhone's Settings.</p>
+
+            <h2>6. Verification & Open Source</h2>
+            <p>Transparency is key to trust. Vital2AI is <a href="https://github.com/agalbourdin/vital2ai"
+                    target="_blank" style="color: var(--primary); text-decoration: underline;">open-source software</a>.
+                This means our code is publicly available for anyone to audit, ensuring that we handle your health data
+                exactly as described in this policy. You can verify every line of code to see how your information is
+                processed entirely on your device.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Vital2AI. Released under the MIT License. Created by <a href="https://www.alexisg.net/"
+                    target="_blank" style="color: inherit; text-decoration: underline;">Alexis Galbourdin</a>.</p>
+            <p style="margin-top: 0.5rem;"><a href="index.html"
+                    style="color: inherit; text-decoration: underline;">Home</a> | <a href="privacy.html"
+                    style="color: inherit; text-decoration: underline;">Privacy Policy</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

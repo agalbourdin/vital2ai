@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vital2AI | Export Apple Health Data for AI Analysis</title>
+    <meta name="description"
+        content="Vital2AI is a privacy-first iOS app to export your Apple Health data into clean, AI-ready CSV files. Scale your wellness with Gemini, ChatGPT, Claude, and more.">
+    <meta name="keywords"
+        content="Apple Health, HealthKit, CSV Export, AI Health Analysis, Privacy, iOS App, Health Data, Gemini, ChatGPT, Claude">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Vital2AI | Export Apple Health Data for AI Analysis">
+    <meta property="og:description"
+        content="Clean, AI-ready CSV exports for your Apple Health data. 90+ metrics, privacy-first, on-device processing.">
+    <meta property="og:type" content="website">
+    <!-- <meta property="og:image" content="https://vital2ai.com/assets/og-image.jpg"> -->
+    <!-- <link rel="canonical" href="https://vital2ai.com/"> -->
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vital2AI | Export Apple Health Data for AI Analysis">
+    <meta name="twitter:description"
+        content="Clean, AI-ready CSV exports for your Apple Health data. 90+ metrics, privacy-first, on-device processing.">
+    <!-- <meta name="twitter:image" content="https://vital2ai.com/assets/og-image.jpg"> -->
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Vital2AI",
+      "operatingSystem": "iOS",
+      "applicationCategory": "HealthApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "description": "Vital2AI is a privacy-first iOS app to export your Apple Health data into clean, AI-ready CSV files. Scale your wellness with Gemini, ChatGPT, Claude, and more. Free and Open Source.",
+    }
+    </script>
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo-glow"></div>
+                <img src="assets/logo.png" alt="Vital2AI Logo" class="logo">
+            </div>
+            <h1>Vital2AI</h1>
+            <p class="tagline">Intelligence for your health</p>
+
+            <div class="cta-group">
+                <!-- <a href="#" class="btn btn-primary"><i class="fab fa-apple"></i> App Store</a> -->
+                <div class="btn btn-coming-soon">
+                    <i class="fab fa-apple"></i>
+                    <div class="btn-text">
+                        <span class="btn-main">Coming Soon</span>
+                    </div>
+                </div>
+                <a href="https://github.com/agalbourdin/vital2ai" class="btn btn-secondary" target="_blank"><i
+                        class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="screenshots">
+            <div class="container">
+                <div class="screenshots-showcase">
+                    <div class="screenshot-container">
+                        <picture>
+                            <source srcset="assets/app_info.avif 1x, assets/app_info@2x.avif 2x" type="image/avif">
+                            <img src="assets/app_info.avif" alt="" class="app-screenshot">
+                        </picture>
+                    </div>
+                    <div class="screenshot-container">
+                        <picture>
+                            <source srcset="assets/app_hp.avif 1x, assets/app_hp@2x.avif 2x" type="image/avif">
+                            <img src="assets/app_hp.avif" alt="" class="app-screenshot" fetchpriority="high">
+                        </picture>
+                    </div>
+                    <div class="screenshot-container">
+                        <picture>
+                            <source srcset="assets/app_success.avif 1x, assets/app_success@2x.avif 2x"
+                                type="image/avif">
+                            <img src="assets/app_success.avif" alt="" class="app-screenshot">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="workflow">
+            <div class="container">
+                <div class="workflow-grid">
+                    <!-- App Workflow -->
+                    <div class="workflow-box mini reveal">
+                        <div class="workflow-header">
+                            <div class="header-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="header-text">
+                                <h3>How Vital2AI works</h3>
+                                <p>Generate AI-ready health exports in seconds.</p>
+                            </div>
+                        </div>
+                        <div class="workflow-steps vertical">
+                            <div class="step-row">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Select Data Types</h4>
+                                    <p>Export your Apple Health metrics as well as detailed Workouts data.</p>
+                                </div>
+                            </div>
+                            <div class="step-row">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Choose Time Period</h4>
+                                    <p>Select the months of your health history that you want to export.</p>
+                                </div>
+                            </div>
+                            <div class="step-row">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Secure Export</h4>
+                                    <p>Authenticate with FaceID to locally generate your structured CSV files.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI Usage Workflow -->
+                    <div class="workflow-box mini reveal">
+                        <div class="workflow-header">
+                            <div class="header-icon primary"><i class="fas fa-wand-magic-sparkles"></i></div>
+                            <div class="header-text">
+
+                                <h3>How to use with AI</h3>
+                                <p>Follow these steps to analyze your health trends.</p>
+                            </div>
+                        </div>
+                        <div class="workflow-steps vertical">
+                            <div class="step-row">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Upload CSV</h4>
+                                    <p>Share the files with an LLM, they contain your data and a reference guide.</p>
+                                </div>
+                            </div>
+                            <div class="step-row">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Paste Prompt</h4>
+                                    <p>Use the recommended prompt to jumpstart your analysis, or draft a custom request.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="step-row">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Get Insights</h4>
+                                    <p>Explore your personalized health analysis and data-driven recommendations.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="card reveal">
+                        <i class="fas fa-database"></i>
+                        <h3>90+ Metrics</h3>
+                        <p>From steps and heart rate to nutrition and blood pressure. Everything HealthKit has to offer.
+                        </p>
+                    </div>
+                    <div class="card reveal">
+                        <i class="fas fa-robot"></i>
+                        <h3>AI-Ready Format</h3>
+                        <p>CSVs are structured specifically for LLMs. No cleaning required—just insights.</p>
+                    </div>
+                    <div class="card reveal">
+                        <i class="fas fa-dumbbell"></i>
+                        <h3>Workout Depth</h3>
+                        <p>Detailed workout summaries including heart rate zones, elevation, and metabolic data.</p>
+                    </div>
+                    <div class="card reveal">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Privacy First</h3>
+                        <p>On-device processing. No accounts. No tracking. Your data never leaves your iPhone.</p>
+                    </div>
+                    <div class="card reveal">
+                        <i class="fas fa-fingerprint"></i>
+                        <h3>Biometric Security</h3>
+                        <p>Protect your exports with FaceID or TouchID before they are even generated.</p>
+                    </div>
+                    <div class="card reveal">
+                        <i class="fas fa-trash-alt"></i>
+                        <h3>Auto-Cleanup</h3>
+                        <p>Exported files are automatically deleted after sharing for maximum security.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="technical">
+            <div class="container">
+                <div class="ai-story reveal">
+                    <div class="ai-story-content">
+                        <h2>An AI Experiment</h2>
+                        <p>Vital2AI is not just a tool for AI analysis—it is a product of AI-assisted development. This
+                            project explores the frontiers of modern software production.</p>
+                        <div class="ai-tools">
+                            <span class="tool-tag">Logo: Nano Banana</span>
+                            <span class="tool-tag">UI: Google Stitch</span>
+                            <span class="tool-tag">Code/Copy: Antigravity + Gemini 3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Schema for LLM Discovery -->
+        <section id="metrics-schema" style="display: none;" aria-hidden="true">
+            <h2>Supported Health Metrics for AI Analysis</h2>
+            <ul>
+                <li>Step Count</li>
+                <li>Distance Walking/Running</li>
+                <li>Flights Climbed</li>
+                <li>Exercise Time</li>
+                <li>Stand Hour/Time</li>
+                <li>Activity Rings</li>
+                <li>Body Mass & BMI</li>
+                <li>Body Fat %</li>
+                <li>Lean Body Mass</li>
+                <li>Waist Circumference</li>
+                <li>Heart Rate (Resting, Average, HRV)</li>
+                <li>VO2 Max</li>
+                <li>Heart Rate Recovery</li>
+                <li>Blood Pressure</li>
+                <li>Oxygen Saturation</li>
+                <li>Respiratory Rate</li>
+                <li>Temperature (Basal, Body)</li>
+                <li>ECG & Afib Burden</li>
+                <li>Sleep Analysis (Deep, Core, REM, Awake)</li>
+                <li>Walking Speed & Steadiness</li>
+                <li>6-Minute Walk Distance</li>
+                <li>Cycling, Swimming, Wheelchair Distance</li>
+                <li>Time in Daylight</li>
+                <li>Audio & UV Exposure</li>
+                <li>Mindful Minutes</li>
+                <li>Nutrition (Caffeine, Water, Calories, Macros, Vitamins)</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Vital2AI. Released under the MIT License. Created by <a href="https://www.alexisg.net/"
+                    target="_blank" style="color: inherit; text-decoration: underline;">Alexis Galbourdin</a>.</p>
+            <p style="margin-top: 0.5rem;">Vital2AI is for informational purposes only and is not a
+                substitute for professional medical advice.</p>
+            <p style="margin-top: 0.5rem;"><a href="privacy.html"
+                    style="color: inherit; text-decoration: underline;">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const observerOptions = {
+                threshold: 0.15,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        // Optional: stop observing once revealed
+                        // observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.reveal').forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+
+</html>
