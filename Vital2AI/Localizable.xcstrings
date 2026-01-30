@@ -1,0 +1,565 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "ai_accuracy_disclaimer" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note: AI models can hallucinate or misinterpret clinical raw data. Always verify AI insights with a medical professional."
+          }
+        }
+      }
+    },
+    "ai_privacy_warning_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Be mindful when sharing your health data with AI models. Before uploading, we recommend reviewing the terms of use of your chosen LLM. Some providers may use your data for model training or allow human reviewers to access it for quality control."
+          }
+        }
+      }
+    },
+    "ai_privacy_warning_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Data Privacy"
+          }
+        }
+      }
+    },
+    "app_info_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vital2AI is an open-source tool that exports your Apple Health data into structured CSV files optimized for AI analysis.\n\nAn export includes:\n• **Health Data:** 90+ metrics (Vitals, Nutrition, Sleep, etc.)\n• **Workouts:** Detailed activity logs and heart rate zones.\n• **Guide:** Contextual metadata for AI insights.\n\nPrivate, local, and secure. Licensed under MIT."
+          }
+        }
+      }
+    },
+    "app_info_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About Vital2AI"
+          }
+        }
+      }
+    },
+    "app_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vital2AI"
+          }
+        }
+      }
+    },
+    "app_tagline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "INTELLIGENCE FOR YOUR HEALTH"
+          }
+        }
+      }
+    },
+    "biometric_reason" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authenticate to export your health data."
+          }
+        }
+      }
+    },
+    "clear_all" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear all"
+          }
+        }
+      }
+    },
+    "Copied!" : {
+
+    },
+    "Done" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        }
+      }
+    },
+    "error_auth_canceled" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authentication was canceled, please try again."
+          }
+        }
+      }
+    },
+    "error_auth_failed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authentication failed, please try again."
+          }
+        }
+      }
+    },
+    "error_biometric_not_available" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please set a passcode on your device to enable secure export."
+          }
+        }
+      }
+    },
+    "error_export_failed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to generate export files or no data available."
+          }
+        }
+      }
+    },
+    "error_export_timeout" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The export operation timed out. Please check your Health permissions in Settings."
+          }
+        }
+      }
+    },
+    "error_healthkit_auth_failed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HealthKit authorization failed. Please check your Health permissions in Settings."
+          }
+        }
+      }
+    },
+    "error_healthkit_not_available" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HealthKit is not available on this device."
+          }
+        }
+      }
+    },
+    "error_no_data_found" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No health data found for the selected period. Generation aborted."
+          }
+        }
+      }
+    },
+    "error_unknown" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An unknown error occurred."
+          }
+        }
+      }
+    },
+    "generate_csv_export" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generate Export"
+          }
+        }
+      }
+    },
+    "health" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Health"
+          }
+        }
+      }
+    },
+    "home_learn_more" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Learn more"
+          }
+        }
+      }
+    },
+    "home_privacy_disclaimer" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your health data is processed locally and stays private. This app does not provide medical advice."
+          }
+        }
+      }
+    },
+    "information_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Information"
+          }
+        }
+      }
+    },
+    "medical_disclaimer_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vital2AI provides health data export for informational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the counsel of a physician or qualified health provider regarding any medical condition. This app strictly formats raw data from HealthKit and does not interpret, analyze, or provide medical insights.\n\n**Experimental Metric**: Heart Rate Deceleration Index is an experimental feature calculated by this app. It is not guaranteed to be correct and has not been clinically validated."
+          }
+        }
+      }
+    },
+    "medical_disclaimer_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medical Disclaimer"
+          }
+        }
+      }
+    },
+    "privacy_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Local processing, your data never leaves your device. Ephemeral files, biometric security. You choose where to share exported files."
+          }
+        }
+      }
+    },
+    "privacy_first" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy First"
+          }
+        }
+      }
+    },
+    "privacy_policy_content" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vital2AI is built with privacy as a core principle. Your health data is among your most sensitive information, and we ensure it remains entirely under your control.\n\n**1. Local Processing & Sandboxed Security**\nAll health data is read directly from HealthKit and processed entirely on your device. The app operates in a sandboxed environment, meaning it has no access to your other files or data beyond what you explicitly grant. We do not use any external servers to process, analyze, or interpret your health information.\n\n**2. Ephemeral Files & Automatic Cleanup**\nThe CSV files generated for export are stored in a temporary, secure directory on your device. To ensure maximum security, these files are strictly ephemeral:\n\n– Immediate Deletion: All exported files are automatically deleted the moment you navigate away from the success screen or if the app is moved to the background.\n– No Residual Data: No copy of your health data is permanently stored within the app's local storage.\n\n**3. Biometric & Device Security**\nWe use industry-standard Local Authentication (FaceID, TouchID, or your device Passcode) to gate the export process. This ensures that even if your device is unlocked, your health data can only be exported by you.\n\n**4. Zero Data Collection**\nWe do not collect, store, or transmit your health data—or any analytics about your usage—to any third parties. The CSV files are generated locally and are only shared with the destinations you explicitly choose via the iOS Share Sheet.\n\n**5. HealthKit Access & Control**\nThe app requests read-only access to specific HealthKit types necessary for the export. You have full control over these permissions and can revoke them at any time in your iPhone's Settings.\n\n**6. Verification & Open Source**\nTransparency is key to trust. Vital2AI is open-source software. This means our code is publicly available for anyone to audit, ensuring that we handle your health data exactly as described in this policy. You can verify every line of code to see how your information is processed entirely on your device."
+          }
+        }
+      }
+    },
+    "privacy_policy_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy Policy"
+          }
+        }
+      }
+    },
+    "read_privacy_policy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read Privacy Policy"
+          }
+        }
+      }
+    },
+    "select_all" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select all"
+          }
+        }
+      }
+    },
+    "select_data_types" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select Data Types"
+          }
+        }
+      }
+    },
+    "select_export_period" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select Export Period"
+          }
+        }
+      }
+    },
+    "success_copy_snippet" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy Snippet"
+          }
+        }
+      }
+    },
+    "success_download_button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download CSV Files"
+          }
+        }
+      }
+    },
+    "success_how_to_subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Follow these steps to analyze your health trends."
+          }
+        }
+      }
+    },
+    "success_how_to_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How to use with AI"
+          }
+        }
+      }
+    },
+    "success_llm_prompt_content" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analyze the attached Apple Health data and workout CSVs. Use the Guide.md file to understand the medical IDs and metric descriptions. Provide a comprehensive summary of my health trends, activity levels, and recovery patterns. Identify any significant changes or anomalies over the exported period and suggest actionable steps to optimize my fitness and well-being based on these insights. Feel free to ask for additional context or details if needed to provide more precise feedback."
+          }
+        }
+      }
+    },
+    "success_recommended_prompt_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RECOMMENDED PROMPT"
+          }
+        }
+      }
+    },
+    "success_step_1_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share the CSV files with an LLM. They contain your structured health data, detailed workout history, and a reference guide with definitions to help the AI provide accurate, context-aware insights."
+          }
+        }
+      }
+    },
+    "success_step_1_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upload CSV"
+          }
+        }
+      }
+    },
+    "success_step_2_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the recommended prompt below to jumpstart your analysis, or draft a custom request for more specific insights."
+          }
+        }
+      }
+    },
+    "success_step_2_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paste Prompt"
+          }
+        }
+      }
+    },
+    "success_step_3_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explore your personalized health analysis and data-driven training recommendations."
+          }
+        }
+      }
+    },
+    "success_step_3_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get Insights"
+          }
+        }
+      }
+    },
+    "success_subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your health data has been securely processed and formatted into structured CSV files optimized for LLMs."
+          }
+        }
+      }
+    },
+    "success_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data Ready for Analysis"
+          }
+        }
+      }
+    },
+    "view_on_github" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "View on GitHub"
+          }
+        }
+      }
+    },
+    "Vital2AI" : {
+
+    },
+    "workouts" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Workouts"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
